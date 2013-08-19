@@ -30,7 +30,7 @@
                     x: this.canvasWidth / 2,
                     y: this.canvasHeight / 2
                 },
-                
+
                 color: '#f07',
 
                 update: function() {
@@ -88,11 +88,11 @@
             }
 
             _.each(this.coq.entities.all(), function(entity) {
-                if (entity instanceof App.Entities.Person) return;
-                if (entity.pos.x > this.width || entity.pos.y > this.height) {
+                if (!(entity instanceof App.Entities.Snow)) return;
+                if (entity.pos.x > this.canvasWidth || entity.pos.y > this.canvasHeight) {
                     this.coq.entities.destroy(entity, function() {
-                        this.snowCount -= 1;
-                    }.bind(this));
+                        app.snowCount -= 1;
+                    });
                 }
             }.bind(this));
         },
