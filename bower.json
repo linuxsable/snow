@@ -1,0 +1,10 @@
+{
+  "name": "2d",
+  "version": "0.0.1",
+  "dependencies": {
+    "normalize-css": "latest",
+    "coquette": "latest",
+    "underscore": "latest",
+    "jquery": "latest"
+  }
+}

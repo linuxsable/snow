@@ -1,0 +1,12 @@
+{
+  "name": "coquette",
+  "homepage": "https://github.com/maryrosecook/coquette",
+  "_release": "01e364ba8d",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "01e364ba8d4165f5d205b53ddff1b3a8b03cb94c"
+  },
+  "_source": "git://github.com/maryrosecook/coquette.git",
+  "_target": "*"
+}
